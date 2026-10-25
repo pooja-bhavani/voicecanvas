@@ -1,5 +1,7 @@
 # Voice Canvas
 
+<img width="1470" height="885" alt="Screenshot 2026-10-25 at 1 48 26 pm" src="https://github.com/user-attachments/assets/f25cf9e3-9b40-403b-8c85-60de40130b48" />
+
 Voice Canvas turns spoken or typed infrastructure requirements into a visual cloud architecture and reviewable Terraform and Docker Compose drafts. The diagram uses React Flow, the interface is styled with Tailwind CSS, and the optional generation API uses Gemini from a Next.js server route.
 
 Generated infrastructure is a starting point, not a deployment. Review and test all generated configuration before applying it.
