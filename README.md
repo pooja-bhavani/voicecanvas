@@ -90,15 +90,15 @@ The React Flow canvas displays draggable, selectable service nodes and animated 
 
 Clicking a node displays its description in the inspector. Click an empty part of the canvas to clear the selection.
 
-### Inspector — Overview
+### Inspector - Overview
 
 The dark inspector's **Overview** tab shows the architecture summary, component counts, generated speaker notes, and production-oriented reminders. Selecting a node displays its details here.
 
-### Inspector — main.tf
+### Inspector - main.tf
 
 The **main.tf** tab displays the Terraform text returned for the current architecture (or the sample Terraform before generation). Use **Copy** or **Download** to export it.
 
-### Inspector — docker-compose.yml
+### Inspector - docker-compose.yml
 
 The **docker-compose.yml** tab displays the Docker Compose text returned for the current architecture (or the sample Compose file before generation). Use **Copy** or **Download** to export it.
 
