@@ -11,7 +11,7 @@ Generated infrastructure is a starting point, not a deployment. Review and test 
 - Node.js 20.9 or later
 - npm
 - A Gemini API key for Gemini generation. The local visual-draft fallback works without one.
-- Optional: Wispr Flow for voice dictation. Voice Canvas receives text inserted by Wispr Flow; it does not record or transcribe audio itself.
+- Wispr Flow for voice dictation. Voice Canvas receives text inserted by Wispr Flow; it does not record or transcribe audio itself.
 
 ## Set up and run
 
@@ -125,3 +125,8 @@ app/
 .env.example                  Environment-variable template
 postcss.config.mjs             Tailwind CSS PostCSS configuration
 ```
+---
+
+### Example demo
+
+<img width="1470" height="886" alt="Screenshot 2026-10-25 at 8 43 41 pm" src="https://github.com/user-attachments/assets/725b388c-041c-4298-9760-008f762c3ff2" />
