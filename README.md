@@ -84,7 +84,7 @@ This text area accepts typed requirements and text inserted by Wispr Flow. On su
 
 The Function-key hint describes the Wispr Flow dictation workflow; the key is handled by Wispr Flow, not by Voice Canvas. Do not include passwords, API keys, or other secrets in the prompt: prompt content is sent to Gemini when Gemini generation is enabled.
 
-### Architecture canvas
+## Architecture canvas
 
 The React Flow canvas displays draggable, selectable service nodes and animated connections. It includes a dot-grid background, zoom and fit controls, and an operational or visualization-only status. Generated services include visual categories such as internet, CDN, gateway, application service, worker, event stream, database, and cache.
 
