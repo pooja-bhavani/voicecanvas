@@ -1,0 +1,103 @@
+@import "tailwindcss";
+@import "@xyflow/react/dist/style.css";
+
+:root {
+  color-scheme: light;
+  --ink: #18231f;
+  --muted: #7c8882;
+  --line: #e7ebe8;
+  --green: #1e7654;
+  --mint: #e9f5ee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #f6f8f6;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font: inherit;
+}
+
+.canvas-grid {
+  background-color: #f8faf8;
+  background-image: radial-gradient(#dce4de 0.8px, transparent 0.8px);
+  background-size: 20px 20px;
+}
+
+.react-flow__controls {
+  overflow: hidden;
+  border: 1px solid #e5eae6;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgb(27 46 35 / 7%);
+}
+
+.react-flow__controls-button {
+  width: 31px;
+  height: 31px;
+  border-bottom-color: #edf0ed;
+  background: #fff;
+  fill: #62716a;
+}
+
+.react-flow__controls-button:hover {
+  background: #f0f6f2;
+}
+
+.react-flow__edge-path {
+  stroke: #789587;
+  stroke-width: 1.65;
+}
+
+.react-flow__edge.animated .react-flow__edge-path {
+  stroke: #438368;
+  stroke-dasharray: 7 5;
+  animation: flow-dash 1.4s linear infinite;
+}
+
+.react-flow__arrowhead {
+  fill: #438368;
+}
+
+.react-flow__handle {
+  width: 7px;
+  height: 7px;
+  border: 1.5px solid #fff;
+  background: #62a383;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+
+.react-flow__node:hover .react-flow__handle,
+.react-flow__node.selected .react-flow__handle {
+  opacity: 1;
+}
+
+@keyframes flow-dash {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
